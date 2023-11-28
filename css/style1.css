@@ -1,0 +1,207 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.bild{
+    width: fit-content;
+    height: 8vh;
+    float: left;
+   
+   
+}
+
+
+
+.search-bar [list]::-webkit-list-button,
+.search-bar [list]::-webkit-calendar-picker-indicator {
+  display: none !important;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: right;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
+
+.topnav {
+    background-color: rgba(0, 0, 0, 0);
+   width: 100%;
+   position: fixed;
+    color: 2980b9;
+    
+   
+  }
+  
+
+  
+  .topnav a {
+    float: left;
+    color: rgb(41,128,185);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav h1{
+color: rgb(41,128,185);
+ padding-left: 45%;
+ font-size: x-large;
+  }
+  
+ 
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+ 
+  .topnav a.active {
+    background-color: grey;
+    color: white;
+  }
+
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 10px;
+    font-size: 17px;
+    border-radius: 20px;
+  }
+  
+  
+
+
+.mainbild{
+    width: 100%;
+    height: 100vh;
+background-image: url(/img/rocket.jpg);
+background-position-x: center;
+background-size: 100% 100vh;
+background-repeat: no-repeat;
+
+}
+
+button{
+top: 50%;
+left: 42.5%;
+width: 120px;
+height:60px;
+position: absolute;
+ z-index: 2;
+ background-color: rebeccapurple;
+ box-shadow: 15px;
+ border-radius: 100px;
+}
+
+#wrapper{
+    column-gap: 3vh;
+    row-gap: 4vh;
+    display: grid;
+    width: 90%;
+    height: 120vh;
+    grid-row: 10vh;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 35% 35% 10%;
+    grid-template-areas:
+    '. . . . .'
+    'pers1 . om . pers3'   
+    'pers2 . om . pers4' 
+    '. . . . .'
+    ;
+    
+}
+
+.bild1{
+    grid-area: pers1;
+    background-image: url(/img/vilgot.jpg);
+    background-size: cover;
+    border-radius: 100px;
+   
+}
+
+.bild2{
+    grid-area: pers2;
+    background-image: url(/img/armanmål.jpg);
+    background-size: cover;
+    border-radius: 100px;
+    
+}
+.bild3{
+    grid-area: pers3;
+    background-image: url(/img/Eliaslise.jpg);
+    background-size: cover;
+    border-radius: 100px;
+   
+}
+.bild4{
+    grid-area: pers4;
+    background-image: url(/img/mattiasprag.jpg);
+    background-size: cover;
+    border-radius: 100px;
+    
+    
+}
+
+
+.bild1 h3:hover{
+  opacity: 1;
+  color: blue;
+}
+.bild2 h3:hover{
+  opacity: 1;
+  color: blue;
+
+}
+.bild3 h3:hover{
+  opacity: 1;
+  color: blue;
+
+}
+.bild4 h3:hover{
+opacity: 1;
+color: gray ;
+
+}
+
+.bild1 h3{
+   opacity: 0;
+   padding-top: 25%;
+   float: right;
+
+}
+.bild2 h3{
+  opacity: 0;
+  padding-top: 25%;
+   float: right;
+
+}
+.bild3 h3{
+  opacity: 0;
+  padding-top: 25%;
+   float: left;
+
+}
+.bild4 h3 {
+  opacity: 0;
+  padding-top: 25%;
+   float: left;
+
+}
+
+
+
+.om{
+   grid-area: om;
+}

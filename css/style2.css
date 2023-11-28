@@ -1,0 +1,145 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    
+    }
+    
+    .bild{
+        width: fit-content;
+        height: 8vh;
+        float: left;
+        padding-top: 0%;
+    }
+    
+    .search-bar [list]::-webkit-list-button,
+    .search-bar [list]::-webkit-calendar-picker-indicator {
+      display: none !important;
+    }
+    
+    @media screen and (max-width: 600px) {
+        .topnav2 a, .topnav2 input[type=text] {
+          float: right;
+          display: block;
+          text-align: left;
+          width: 100%;
+          margin: 0;
+          padding: 14px;
+        }
+        .topnav2 input[type=text] {
+          border: 1px solid #ccc;
+        }
+      }
+    
+    .topnav2 {
+        background-color: rgba(0, 0, 0, 0);
+       width: 100%;
+       position: fixed;
+        color: 2980b9;
+        padding-top: 0%;
+        
+       
+      }
+      
+    
+      
+      .topnav2 a {
+        float: left;
+        color: rgb(41,128,185);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      .topnav2 h1{
+    color: rgb(41,128,185);
+    padding-left: 45%;
+    font-size: x-large;
+    
+      }
+      
+     
+      .topnav2 a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+     
+      .topnav2 a.active {
+        background-color: grey;
+        color: white;
+      }
+    
+      .topnav2 input[type=text] {
+        float: right;
+        padding: 6px;
+        border: none;
+        margin-top: 8px;
+        margin-right: 10px;
+        font-size: 17px;
+        border-radius: 20px;
+      }
+    
+    
+    
+    .mainb{
+        width: 100%;
+        height: 100vh;
+     background-image: url(/img/giphy.gif);
+     background-position-x: center;
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    
+    
+    }
+    .mainh2{
+        padding-top: 22%;
+        padding-left: 43.5%;
+        font-size: xx-large;
+        color: white;
+        text-shadow: 10px 10px rgb(41,128,185, 0.3);
+        position: absolute;
+    }
+    
+    #wrap{
+        column-gap: 3vh;
+        row-gap: 4vh;
+        display: grid;
+        width: 90%;
+        height: 120vh;
+        grid-row: 10vh;
+        grid-template-columns: 10% 35% 10% 35% 10%;
+        grid-template-rows: 20% 10% 20% 40% 10%;
+        grid-template-areas:
+        '. slogan slogan slogan .'
+        '. . . . .'
+        '. dnyhet . dnyhetb .'
+        '. dnyhet . dnyhetb .'
+        '. . . . .'
+        ;
+    }
+    
+    
+    
+    
+    .slogan2{
+    grid-area: slogan;
+    color: rgb(41,128,185);
+    text-align: center;
+    font-weight: bold;
+    }
+    
+    .bild1{
+    grid-area: dnyhet;
+    
+    }
+    .bild2{
+    grid-area: dnyhetb;
+    }
+    .text1{
+        grid-area: dnyhet;
+    }
+    .text2{
+        grid-area: dnyhetb;
+    }
+    
