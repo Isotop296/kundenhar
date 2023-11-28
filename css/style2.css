@@ -51,12 +51,6 @@ body{
         text-decoration: none;
         font-size: 17px;
       }
-      .topnav2 h1{
-    color: rgb(41,128,185);
-    padding-left: 45%;
-    font-size: x-large;
-    
-      }
       
      
       .topnav2 a:hover {
@@ -95,7 +89,7 @@ body{
     .mainh2{
         padding-top: 22%;
         padding-left: 43.5%;
-        font-size: xx-large;
+        font-size: 100rem;
         color: white;
         text-shadow: 10px 10px rgb(41,128,185, 0.3);
         position: absolute;
