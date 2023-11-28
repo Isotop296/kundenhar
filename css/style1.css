@@ -8,7 +8,9 @@ body{
 padding-top: 20vh;
 }
 
-
+html{
+    scroll-behavior: smooth;
+}
 .bild{
     width: fit-content;
     height: 8vh;
