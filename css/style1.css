@@ -141,7 +141,7 @@ position: absolute;
     background-image: url(/img/vilgot.jpg);
     background-size: cover;
     border-radius: 100px;
-   
+    backdrop-filter: none;     
 }
 
 .bild2{
@@ -149,71 +149,89 @@ position: absolute;
     background-image: url(/img/armanmål.jpg);
     background-size: cover;
     border-radius: 100px;
-    
+    backdrop-filter: none;     
 }
 .bild3{
     grid-area: pers3;
     background-image: url(/img/Eliaslise.jpg);
     background-size: cover;
     border-radius: 100px;
-   
+    backdrop-filter: none;     
 }
 .bild4{
     grid-area: pers4;
     background-image: url(/img/mattiasprag.jpg);
     background-size: cover;
     border-radius: 100px;
-    
+    backdrop-filter: none;     
     
 }
 
 
 .bild1 h3:hover{
   opacity: 1;
-  color: blue;
+  color: rgb(41,128,185);
+  backdrop-filter: blur(7px);
+backdrop-filter: cover;
 }
 .bild2 h3:hover{
   opacity: 1;
-  color: blue;
-
+  color: rgb(41,128,185);
+  backdrop-filter: blur(7px);
+ 
 }
 .bild3 h3:hover{
   opacity: 1;
-  color: blue;
+  color: rgb(41,128,185);
+  backdrop-filter: blur(7px);
 
 }
 .bild4 h3:hover{
 opacity: 1;
-color: gray ;
+color: rgb(41,128,185) ;
+backdrop-filter: blur(7px);
 
 }
 
 .bild1 h3{
    opacity: 0;
-   padding-top: 25%;
    float: right;
-
+height: 80%;
+width: 100%;
+border-radius: 100px;
+text-align: center;
+padding-top: 15%;
 }
 .bild2 h3{
   opacity: 0;
-  padding-top: 25%;
    float: right;
-
+   height: 80%;
+   width: 100%;
+   border-radius: 100px;
+   text-align: center;
+   padding-top: 7%;
 }
 .bild3 h3{
   opacity: 0;
-  padding-top: 25%;
    float: left;
-
+   height: 80%;
+   width: 100%;
+   border-radius: 100px;
+   text-align: center;
+   padding-top: 15%;
 }
 .bild4 h3 {
   opacity: 0;
-  padding-top: 25%;
    float: left;
-
+   height: 300px;
+   width: 100%;
+   border-radius: 135px;
+   text-align: center;
+   padding-top: 20%;
 }
 
 
+ 
 
 .om{
    grid-area: om;

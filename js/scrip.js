@@ -90,4 +90,7 @@ const resetPosts = () => {
     searchResults.map((post) => createPost(post));
   };
 
-
+  document.getElementById('topnav').onsubmit = function() {
+    window.location = 'http://www.google.com/search?q=site:yoursitename.com ' + document.getElementById('txtSearch').value;
+    return false;
+  }
