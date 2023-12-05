@@ -103,13 +103,13 @@ body{
         height: 120vh;
         grid-row: 0vh;
         grid-template-columns: 10% 35% 10% 35% 10%;
-        grid-template-rows: 10% 0.1% 19.9% 20% 40% 10%;
+        grid-template-rows: 10% 0.1% 19.9% 20% 30% 20%;
         grid-template-areas:
         '. slogan slogan slogan .'
         '. lin lin lin .'
         '. . . . .'
-        '. dnyhet . dnyhetb .'
-        '. dnyhet . dnyhetb .'
+        '. dnyhetb1 . dnyhetb2 .'
+        '. dnyhet1 . dnyhet2 .'
         '. . . . .'
         ;
     }
@@ -126,23 +126,35 @@ body{
     }
     
     .bild1{
-    grid-area: dnyhet;
-    
+    grid-area: dnyhetb1;
+    background-size: cover;
+    backdrop-filter: none;   
    
     }
     .bild2{
-    grid-area: dnyhetb;
-
+    grid-area: dnyhetb2;
+background-image: url(/img/teslablå.jpg);
+background-size: cover;
+    backdrop-filter: none;   
     }
+  
     .text1{
-        grid-area: dnyhet;
+        grid-area: dnyhet1;
         color: rgb(41,128,185);
         text-decoration: none;
+        float: left;
+        background-color: rgba(0, 0, 0, 0);
+        text-decoration: none;
+        font-size: 17px;
     }
     .text2{
-        grid-area: dnyhetb;
+      float: right;
+        grid-area: dnyhet2;
         color: rgb(41,128,185);
         text-decoration: none;
+        background-color: rgba(0, 0, 0, 0);
+        text-decoration: none;
+        font-size: 17px;
     }
     
 .linje{
