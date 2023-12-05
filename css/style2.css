@@ -101,11 +101,12 @@ body{
         display: grid;
         width: 90%;
         height: 120vh;
-        grid-row: 10vh;
+        grid-row: 0vh;
         grid-template-columns: 10% 35% 10% 35% 10%;
-        grid-template-rows: 20% 10% 20% 40% 10%;
+        grid-template-rows: 10% 0.1% 19.9% 20% 40% 10%;
         grid-template-areas:
         '. slogan slogan slogan .'
+        '. lin lin lin .'
         '. . . . .'
         '. dnyhet . dnyhetb .'
         '. dnyhet . dnyhetb .'
@@ -121,21 +122,30 @@ body{
     color: rgb(41,128,185);
     text-align: center;
     font-weight: bold;
-    background-color: white;
-    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+   
     }
     
     .bild1{
     grid-area: dnyhet;
+    
    
     }
     .bild2{
     grid-area: dnyhetb;
+
     }
     .text1{
         grid-area: dnyhet;
+        color: rgb(41,128,185);
+        text-decoration: none;
     }
     .text2{
         grid-area: dnyhetb;
+        color: rgb(41,128,185);
+        text-decoration: none;
     }
     
+.linje{
+grid-area: lin;
+  background-color: white;
+}
