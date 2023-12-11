@@ -108,7 +108,7 @@ body{
         '. . . . .'
         '. dnyhetb1 . dnyhetb2 .'
         '. dnyhet1 . dnyhet2 .'
-        '. . . . .'
+        '. dnyhet1 . dnyhet2 .'
         ;
     }
     
@@ -152,31 +152,63 @@ border-radius: 10px;
         grid-area: dnyhet1;
         color: white;
         text-decoration: none;
-        float: left;
-        background-color: rgba(0, 0, 0, 0);
+        background-color: rgba(42, 40, 40, 0.338);
         text-decoration: none;
         font-size: 17px;
+        box-shadow: inset -5px 5px  5px 0px #2980b9;
+        border-radius: 10px;
     }
     .text2{
       float: right;
         grid-area: dnyhet2;
         color: white;
         text-decoration: none;
-        background-color: rgba(0, 0, 0, 0);
+        background-color: rgba(42, 40, 40, 0.338);
         text-decoration: none;
         font-size: 17px;
+        box-shadow: inset -5px 5px  5px 0px #2980b9;
+        border-radius: 10px;
     }
-  .text1 :hover{
- text-shadow: -5px 5px 5px 0px #2980b9;
-
-  }
-
-  .text2 :hover{
-    text-shadow: -5px 5px 5px 0px #2980b9;
-   
-     }
-
+  
+.text1 h2{
+text-align: center;
+}
 .linje{
 grid-area: lin;
   background-color: white;
+}
+
+#wrap2{
+  column-gap: 3vh;
+        row-gap: 4vh;
+        display: grid;
+        width: 90%;
+        height: 120vh;
+        grid-row: 0vh;
+        grid-template-columns: 5% 20% 20% 30% 25%;
+        grid-template-rows: 24.8% 25% 0.1% 25% 0.1% 25%;
+        grid-template-areas:
+        '. . . . .'
+        '. art1 art1 . ad'
+        '. lin lin . ad'
+        '. art2 art2 . ad'
+        '. lin lin . ad'
+        '. art3 art3 . .'
+        ;
+}
+
+
+.artikel1{
+grid-area: art1;
+}
+.artikel2{
+  grid-area: art2;
+}
+.artikel3{
+  grid-area: art3;
+}
+
+.adspel{
+grid-area: ad;
+
 }
