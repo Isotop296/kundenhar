@@ -1,218 +1,270 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    background-color:black;
-    
-    }
-    
-    .bild{
-        width: fit-content;
-        height: 8vh;
-        float: left;
-        padding-top: 0%;
-    }
-    
-    .search-bar [list]::-webkit-list-button,
-    .search-bar [list]::-webkit-calendar-picker-indicator {
-      display: none !important;
-    }
-    
-    @media screen and (max-width: 600px) {
-        .topnav2 a, .topnav2 input[type=text] {
-          float: right;
-          display: block;
-          text-align: left;
-          width: 100%;
-          margin: 0;
-          padding: 14px;
-        }
-        .topnav2 input[type=text] {
-          border: 1px solid #ccc;
-        }
-      }
-    
-    .topnav2 {
-        background-color: rgba(0, 0, 0, 0);
-       width: 100%;
-       position: fixed;
-        color: 2980b9;
-        padding-top: 0%;
-        
-       
-      }
-      
-    
-      
-      .topnav2 a {
-        float: left;
-        color: rgb(41,128,185);
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-      }
-      
-     
-      .topnav2 a:hover {
-        background-color: #ddd;
-        color: black;
-      }
-      
-     
-      .topnav2 a.active {
-        background-color: grey;
-        color: white;
-      }
-    
-      .topnav2 input[type=text] {
-        float: right;
-        padding: 6px;
-        border: none;
-        margin-top: 8px;
-        margin-right: 10px;
-        font-size: 17px;
-        border-radius: 20px;
-      }
-    
-    
-    
-    .mainb{
-        width: 100%;
-        height: 100vh;
-     background-image: url(/img/giphy.gif);
-     background-position-x: center;
-    background-size: 100% 100vh;
-    background-repeat: no-repeat;
-    }
-    .mainh2{
-        padding-top: 15%;
-        padding-left: 35%;
-        font-size: 6rem;
-        color: white;
-        text-shadow: 10px 10px rgb(41,128,185, 0.3);
-        position: absolute;
-    }
-    
-    #wrap{
-        column-gap: 3vh;
-        row-gap: 3vh;
-        display: grid;
-        width: 90%;
-        height: 120vh;
-        grid-row: 0vh;
-        grid-template-columns: 10% 35% 10% 35% 10%;
-        grid-template-rows: 10% 0.1% 19.9% 35% 15% 20%;
-        grid-template-areas:
-        '. slogan slogan slogan .'
-        '. lin lin lin .'
-        '. . . . .'
-        '. dnyhetb1 . dnyhetb2 .'
-        '. dnyhet1 . dnyhet2 .'
-        '. dnyhet1 . dnyhet2 .'
-        ;
-    }
-    
-    
-    
-    
-    .slogan2{
-    grid-area: slogan;
-    color: rgb(41,128,185);
-    text-align: center;
-    font-weight: bold;
-   
-    }
-    
-    .bild1{
-    grid-area: dnyhetb1;
-    background-size: cover;
-    backdrop-filter: none;   
-    border-radius: 10px;
-   box-shadow: -5px 5px  5px 0px #2980b9;
-    }
-    .bild1 img{
-      width: 100%;
-      height: 100%;
-      border-radius: 10px;
-          }
-    .bild2{
-    grid-area: dnyhetb2;
-background-size: cover;
-    backdrop-filter: none;
-    border-radius: 10px;  
-    box-shadow: -5px 5px 5px 0px  #2980b9;
-    }
-    .bild2 img{
-width: 100%;
-height: 100%;
-border-radius: 10px;
-    }
-  
-    .text1{
-        grid-area: dnyhet1;
-        color: white;
-        text-decoration: none;
-        background-color: rgba(42, 40, 40, 0.338);
-        text-decoration: none;
-        font-size: 17px;
-        box-shadow: inset -5px 5px  5px 0px #2980b9;
-        border-radius: 10px;
-    }
-    .text2{
-      float: right;
-        grid-area: dnyhet2;
-        color: white;
-        text-decoration: none;
-        background-color: rgba(42, 40, 40, 0.338);
-        text-decoration: none;
-        font-size: 17px;
-        box-shadow: inset -5px 5px  5px 0px #2980b9;
-        border-radius: 10px;
-    }
-  
-.text1 h2{
-text-align: center;
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+
 }
-.linje{
-grid-area: lin;
+
+.bild {
+  width: fit-content;
+  height: 8vh;
+  float: left;
+  padding-top: 0%;
+}
+
+.search-bar [list]::-webkit-list-button,
+.search-bar [list]::-webkit-calendar-picker-indicator {
+  display: none !important;
+}
+
+@media screen and (max-width: 600px) {
+
+  .topnav2 a,
+  .topnav2 input[type=text] {
+    float: right;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+
+  .topnav2 input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+
+.topnav2 {
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  position: fixed;
+  color: 2980b9;
+  padding-top: 0%;
+
+
+}
+
+
+
+.topnav2 a {
+  float: left;
+  color: rgb(41, 128, 185);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav2 a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.topnav2 a.active {
+  background-color: grey;
+  color: white;
+}
+
+.topnav2 input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 10px;
+  font-size: 17px;
+  border-radius: 20px;
+}
+
+
+
+.mainb {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/img/giphy.gif);
+  background-position-x: center;
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+}
+
+.mainh2 {
+  padding-top: 15%;
+  padding-left: 35%;
+  font-size: 6rem;
+  color: white;
+  text-shadow: 10px 10px rgb(41, 128, 185, 0.3);
+  position: absolute;
+}
+
+#wrap {
+  column-gap: 3vh;
+  row-gap: 3vh;
+  display: grid;
+  width: 90%;
+  height: 120vh;
+  grid-row: 0vh;
+  grid-template-columns: 10% 35% 10% 35% 10%;
+  grid-template-rows: 10% 0.1% 19.9% 35% 15% 20%;
+  grid-template-areas:
+    '. slogan slogan slogan .'
+    '. lin lin lin .'
+    '. . . . .'
+    '. dnyhetb1 . dnyhetb2 .'
+    '. dnyhet1 . dnyhet2 .'
+    '. dnyhet1 . dnyhet2 .'
+  ;
+}
+
+
+
+
+.slogan2 {
+  grid-area: slogan;
+  color: rgb(41, 128, 185);
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.bild1 {
+  grid-area: dnyhetb1;
+  background-size: cover;
+  backdrop-filter: none;
+  border-radius: 10px;
+  box-shadow: -5px 5px 5px 0px #2980b9;
+}
+
+.bild1 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.bild2 {
+  grid-area: dnyhetb2;
+  background-size: cover;
+  backdrop-filter: none;
+  border-radius: 10px;
+  box-shadow: -5px 5px 5px 0px #2980b9;
+}
+
+.bild2 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.text1 {
+  grid-area: dnyhet1;
+  color: white;
+  text-decoration: none;
+  background-color: rgba(42, 40, 40, 0.338);
+  text-decoration: none;
+  font-size: 17px;
+  box-shadow: inset -5px 5px 5px 0px #2980b9;
+  border-radius: 10px;
+  text-decoration-line: none;
+}
+
+.text2 {
+  float: right;
+  grid-area: dnyhet2;
+  color: white;
+  text-decoration: none;
+  background-color: rgba(42, 40, 40, 0.338);
+  text-decoration: none;
+  font-size: 17px;
+  box-shadow: inset -5px 5px 5px 0px #2980b9;
+  border-radius: 10px;
+  text-decoration-line: none;
+}
+
+.text1 h2 {
+  text-align: center;
+}
+
+.linje {
+  grid-area: lin;
   background-color: white;
 }
 
 #wrap2 {
   column-gap: 3vh;
-        row-gap: 4vh;
-        display: grid;
-        width: 100%;
-        height: 120vh;
-        grid-row: 0vh;
-        grid-template-columns: 5% 20% 20% 30% 25%;
-        grid-template-rows: 24.8% 25% 0.1% 25% 0.1% 25%;
-        grid-template-areas:
-        '. . . . .'
-        '. art1 art1 . ad'
-        '. jin jin . ad'
-        '. art2 art2 . ad'
-        '. jin jin . ad'
-        '. art3 art3 . .'
-        ;
+  row-gap: 3vh;
+  display: grid;
+  width: 100%;
+  height: 140vh;
+  grid-row: 0vh;
+  grid-template-columns: 5% 20% 20% 30% 25%;
+  grid-template-rows: 24.8% 25% 0.1% 25% 0.1% 25%;
+  grid-template-areas:
+    '. . . . .'
+    '. art1 art1 . ad'
+    '. jin jin . ad'
+    '. art2 art2 . ad'
+    '. jin2 jin2 . ad'
+    '. art3 art3 . .'
+  ;
 }
 
 
-.artikel1{
-grid-area: art1;
+.artikel1 {
+  grid-area: art1;
+  color: white;
+  float: left;
+  text-decoration-line: none;
 }
-.artikel2{
+.artikel1 img{
+width: auto;
+height: 100px;
+float: right;
+
+}
+
+.artikel2 {
   grid-area: art2;
+  color: white;
+  float: left;
+  text-decoration-line: none;
 }
-.artikel3{
+.artikel2 img{
+  width: auto;
+  height: 100px;
+  float: right;
+  
+  }
+
+.artikel3 {
   grid-area: art3;
+  color: white;
+  float: left;
+  text-decoration-line: none;
+}
+.artikel3 img{
+  width: auto;
+  height: 100px;
+  float: right;
+  
+  }
+
+.ad1{
+  grid-area: ad;
+float: right;
+}
+.ad1 img{
+width: auto;
+height: 200px;
+
 }
 
-.adspel{
-grid-area: ad;
-
-}
-.linje2{
-grid-area: jin;
+.linje2 {
+  grid-area: jin;
   background-color: white;
 }
+
+.linje3 {
+  grid-area: jin2;
+  background-color: white;
+}
+
