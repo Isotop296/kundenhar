@@ -105,7 +105,7 @@ body {
   height: 120vh;
   grid-row: 0vh;
   grid-template-columns: 10% 35% 10% 35% 10%;
-  grid-template-rows: 10% 0.1% 19.9% 35% 15% 20%;
+  grid-template-rows: 10% 0.1% 19.9% 35% 15% auto;
   grid-template-areas:
     '. slogan slogan slogan .'
     '. lin lin lin .'
@@ -250,7 +250,9 @@ float: right;
 
 .ad1{
   grid-area: ad;
-float: right;
+color: white;
+
+
 }
 .ad1 img{
 width: auto;
