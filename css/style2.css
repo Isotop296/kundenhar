@@ -95,7 +95,7 @@ body{
     
     #wrap{
         column-gap: 3vh;
-        row-gap: 4vh;
+        row-gap: 3vh;
         display: grid;
         width: 90%;
         height: 120vh;
@@ -190,9 +190,9 @@ grid-area: lin;
         grid-template-areas:
         '. . . . .'
         '. art1 art1 . ad'
-        '. lin2 lin2 . ad'
+        '. jin jin . ad'
         '. art2 art2 . ad'
-        '. lin2 lin2 . ad'
+        '. jin jin . ad'
         '. art3 art3 . .'
         ;
 }
@@ -212,7 +212,7 @@ grid-area: art1;
 grid-area: ad;
 
 }
-.linje{
-grid-area: lin2;
+.linje2{
+grid-area: jin;
   background-color: white;
 }
