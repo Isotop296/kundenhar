@@ -121,8 +121,8 @@ position: absolute;
     column-gap: 3vh;
     row-gap: 4vh;
     display: grid;
-    width: 90%;
-    height: 120vh;
+    width: 92%;
+    height: 110vh;
     grid-row: 10vh;
     grid-template-columns: 20% 10% 40% 10% 20%;
     grid-template-rows: 20% 35% 35% 10%;
@@ -228,11 +228,18 @@ padding-top: 15%;
    text-align: center;
    padding-top: 20%;
 }
-
-
- 
-
 .om{
    grid-area: om;
    color: whitesmoke;
+}
+
+
+.foter{
+  height: 50px;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 100px;
+  width: auto;
+background-color: white;
+
 }

@@ -193,7 +193,7 @@ body {
   column-gap: 3vh;
   row-gap: 3vh;
   display: grid;
-  width: 100%;
+  width: 90%;
   height: 140vh;
   grid-row: 0vh;
   grid-template-columns: 5% 20% 20% 30% 25%;
@@ -203,7 +203,7 @@ body {
     '. art1 art1 . ad'
     '. jin jin . ad'
     '. art2 art2 . ad'
-    '. jin2 jin2 . ad'
+    '. jin2 jin2 . .'
     '. art3 art3 . .'
   ;
 }
@@ -250,16 +250,22 @@ float: right;
 
 .ad1{
   grid-area: ad;
-color: white;
-
-
+color: black;
+background-color: white;
+border-radius: 60px;
+opacity: 0;
 }
 .ad1 img{
 width: auto;
 height: 200px;
-
+border-radius: 60px;
 }
 
+.ad1 :hover{
+  grid-area: ad;
+opacity: 1;
+
+}
 .linje2 {
   grid-area: jin;
   background-color: white;
