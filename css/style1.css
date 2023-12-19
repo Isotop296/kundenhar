@@ -19,6 +19,10 @@ html{
    
 }
 
+.bild :hover{
+ background-image: url(/img/donald.jpg);
+
+}
 
 
 .search-bar [list]::-webkit-list-button,
@@ -233,13 +237,17 @@ padding-top: 15%;
    color: whitesmoke;
 }
 
-
-.foter{
-  height: 50px;
-  text-align: center;
-  padding-top: 5px;
-  border-radius: 100px;
-  width: auto;
-background-color: white;
+.fot{
+height: 100px;
+width: 100%;
+  background-image: url(/img/space2.jpg);
+  background-position-x: center;
+background-size: 100% 100vh;
+background-repeat: no-repeat;
+color: white;
+float: left;
 
 }
+
+
+

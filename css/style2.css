@@ -248,24 +248,6 @@ float: right;
   
   }
 
-.ad1{
-  grid-area: ad;
-color: black;
-background-color: white;
-border-radius: 60px;
-opacity: 0;
-}
-.ad1 img{
-width: auto;
-height: 200px;
-border-radius: 60px;
-}
-
-.ad1 :hover{
-  grid-area: ad;
-opacity: 1;
-
-}
 .linje2 {
   grid-area: jin;
   background-color: white;
