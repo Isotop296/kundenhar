@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: black;
+    background-color: rgba(31, 48, 53, 0.922);
   
   }
   .bild {
@@ -11,21 +11,7 @@ body {
     padding-top: 0%;
   }
 
-  @media screen and (max-width: 600px) {
-    .topnav2 a,
-    .topnav2 input[type=text] {
-      float: right;
-      display: block;
-      text-align: left;
-      width: 100%;
-      margin: 0;
-      padding: 14px;
-    }
-  
-    .topnav2 input[type=text] {
-      border: 1px solid #ccc;
-    }
-  }
+ 
   
   .topnav2 {
     background-color: rgba(0, 0, 0, 0);
@@ -97,45 +83,43 @@ padding-top: 5%;
     height: 100vh;
 column-gap: 0px;
 row-gap: 3vh;
-    grid-template-columns:21% 14% 35% 30%;
-    grid-template-rows: 20% 25% 22% 15% 18%;
+    grid-template-columns:15% 20% 30% 35%;
+    grid-template-rows: 28% 25% 22% 25%;
     grid-template-areas:
     
     '. bga1 bga1 bdga'
     '. bga2 bga2 bdga'
     '. bga3 bga3 bdga'
     '. . . .'
-    '. . . .'    
+      
     ;
 
  }
 
  .firstspb{
-    background-color: rgb(32, 30, 30);
     grid-area: bga1;
-    display: flex;
     float: right;
-    border-radius: 25px 0px 0px 25px;
-    color: brown;
+    border-radius: 25px;
+    color: white;
+    box-shadow: -5px -5px rgb(41,128,185);
+    padding: 5px;
  }
-
- .firstspb img {
+ .firstspbB {
     width: 30%;
-    height: 95%;
+    height: 88%;
     border-radius: 100px;
     float: left;
  }
 
-
  .secondspb{
-    background-color: rgb(32, 30, 30);
     grid-area: bga2;
-    border-radius: 25px 0px 0px 25px;
-    display: flex;
+    border-radius: 25px;
     float: right;
-        color: brown;
+        color: white;
+        box-shadow: -5px -5px rgb(41,128,185);
+        padding: 5px;
  }
- .secondspb img {
+ .secondspbB {
     width: 30%;
     height: 95%;
     border-radius: 100px;
@@ -144,21 +128,31 @@ row-gap: 3vh;
 
 
  .thirdspb{
-    background-color: rgb(32, 30, 30);
     grid-area: bga3;
-    border-radius: 25px 0px 0px 25px;
-    display: flex;
+    border-radius: 25px;
     float: right;
-        color: brown;
+        color: white;
+        box-shadow: -5px -5px  rgb(41,128,185);
+        padding: 5px;
  }
- .thirdspb img {
+
+ .thirdspbB {
     width: 30%;
     height: 95%;
     border-radius: 100px;
     float: left;
  }
- 
-.spel{
-
-    display: list-item;  
+ .knappflytt{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-right: 20%;
  }
+.knapp{
+    background-color: rgb(41,128,185);
+    height: 50px;
+    width: 100px;
+    box-shadow: 15px;
+    border-radius: 100px;
+    
+    }
