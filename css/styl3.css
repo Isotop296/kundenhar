@@ -17,10 +17,8 @@ body {
     background-color: rgba(0, 0, 0, 0);
     width: 100%;
     position: fixed;
-    color: 2980b9;
+    color: #2980b9;
     padding-top: 0%;
-  
-  
   }
   
   
@@ -152,7 +150,6 @@ row-gap: 3vh;
     background-color: rgb(41,128,185);
     height: 50px;
     width: 100px;
-    box-shadow: 15px;
     border-radius: 100px;
     
     }

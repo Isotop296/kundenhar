@@ -20,10 +20,6 @@ html{
 }
 
 
-.search-bar [list]::-webkit-list-button,
-.search-bar [list]::-webkit-calendar-picker-indicator {
-  display: none !important;
-}
 
 @media screen and (max-width: 600px) {
     .topnav a, .topnav input[type=text] {

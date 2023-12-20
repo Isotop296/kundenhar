@@ -38,7 +38,7 @@ body {
   background-color: rgba(0, 0, 0, 0);
   width: 100%;
   position: fixed;
-  color: 2980b9;
+  color: #2980b9;
   padding-top: 0%;
 
 
@@ -103,7 +103,7 @@ body {
   display: grid;
   width: 90%;
   height: 120vh;
-  grid-row: 0vh;
+ 
   grid-template-columns: 10% 35% 10% 35% 10%;
   grid-template-rows: 10% 0.1% 19.9% 35% 15% auto;
   grid-template-areas:
@@ -195,7 +195,6 @@ body {
   display: grid;
   width: 90%;
   height: 140vh;
-  grid-row: 0vh;
   grid-template-columns: 5% 20% 20% 30% 25%;
   grid-template-rows: 24.8% 25% 0.1% 25% 0.1% 25%;
   grid-template-areas:
