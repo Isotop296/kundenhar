@@ -48,14 +48,14 @@ html{
   
   .topnav a {
     float: left;
-    color: rgb(41,128,185);
+    color:  #2980b9 ;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
   }
   .topnav h1{
-color: rgb(41,128,185);
+color:  #2980b9;
  padding-left: 45%;
  font-size: x-large;
   }
@@ -164,25 +164,25 @@ position: absolute;
 
 .bild1 h3:hover{
   opacity: 1;
-  color: rgb(41,128,185);
+  color:  #2980b9;
   backdrop-filter: blur(7px);
 backdrop-filter: cover;
 }
 .bild2 h3:hover{
   opacity: 1;
-  color: rgb(41,128,185);
+  color:  #2980b9;
   backdrop-filter: blur(7px);
  
 }
 .bild3 h3:hover{
   opacity: 1;
-  color: rgb(41,128,185);
+  color: #2980b9;
   backdrop-filter: blur(7px);
 
 }
 .bild4 h3:hover{
 opacity: 1;
-color: rgb(41,128,185) ;
+color:  #2980b9;
 backdrop-filter: blur(7px);
 
 }
